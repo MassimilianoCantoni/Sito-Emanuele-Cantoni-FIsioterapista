@@ -1,0 +1,869 @@
+:root
+{
+    --darkBlue : #5497A7;
+    --lightBlue : #9DD0DD;
+    --mainYellow : #FFB700;
+    --mainDark : #000;
+    --mainWhite : #fff;
+
+    --fontHeading : 'Kumbh Sans', sans-serif;
+    --fontBody :  'Open Sans', sans-serif;
+    
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+::-moz-selection 
+{ 
+    color: var(--mainWhite);
+    background: var(--mainYellow);
+}
+  
+::selection 
+{
+    color: var(--mainWhite);
+    background: var(--mainYellow);
+}
+
+body
+{
+    font-size:1.4rem;
+    font-family: var(--fontBody);
+    display:grid;
+}
+
+.sfondoGradienteChiaro
+{
+    background-color: #9dd0dd;
+    background-image: linear-gradient(62deg, #9dd0dd 0%, #e0f5ff 100%);
+
+}
+
+p, a
+{
+    line-height: 2em;
+}
+
+h1,h2,h3,h4
+{
+    font-family: var(--fontHeading);
+}
+
+.contenitoreColonne
+{
+    display:flex;
+}
+
+h1
+{
+    font-size:13vh;
+}
+
+.hero p
+{
+    margin-bottom: 3rem;
+    margin-top:3rem;
+}
+
+
+
+header 
+{
+    margin-bottom:2rem;
+    place-self: center;
+    margin-top:2em;
+    padding-bottom:1em;
+    padding-top:1em;
+    padding-right:2em;
+    padding-left:2em;
+    
+  
+    
+}
+
+.btn
+{
+    text-decoration: none !important;
+    padding-top:0.75em !important;
+    padding-bottom:0.75em !important;
+    padding-left:1.5em !important;
+    padding-right: 1.5em !important;
+
+
+}
+
+.btnYellow
+{
+    color:var(--mainDark);
+    background-color: var(--mainYellow);
+    border-radius: 50px;
+    border:solid 2px var(--mainYellow) !important;
+    transition: 0.3s;
+}
+.btnYellow:hover
+{
+    background-color: var(--mainWhite) !important;
+    border:solid 2px var(--darkBlue) !important;
+}
+
+
+.hero .imgContainer img
+{   
+    
+    position:relative;
+    z-index:300;
+}
+
+.hero .imgContainer 
+{
+    position:relative;
+    
+}
+
+.decorazione
+{
+    width:95%;
+    height:100%;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#divScuro
+{
+    background-color: var(--darkBlue);
+    bottom:20px;
+    z-index:100;
+    right:20px;
+}
+#divChiaro
+{
+    background-color: var(--lightBlue);
+    z-index:200;
+    bottom:2px;
+    right:0;
+}
+
+
+nav li
+{
+    display:inline;
+    
+}
+
+nav label 
+{
+    cursor: pointer;
+  
+    display: inline-block;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+nav li a
+{
+    color: var(--mainDark);
+    text-decoration: none;
+    border-bottom: solid 2px rgba(0, 0, 255, 0);
+    transition: 0.2s;
+}
+
+nav li a:hover
+{
+    border-bottom: solid 2px var(--darkBlue);
+}
+
+
+
+.logo
+{
+    text-align: center;
+    
+}
+
+.logo hr 
+{
+  border: solid 1px var(--darkBlue);
+    
+}
+
+.hero
+{
+    
+    place-self: center;
+    align-items: center;
+    margin-bottom:3.5rem;
+    gap:3.4rem;
+}
+
+.imgContainer img
+{
+    width:30vw;
+}
+
+.contenitoreGrid
+{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.testoDestra
+{
+    text-align: right;
+}
+.testoSinistra
+{
+    text-align: left;
+}
+.testoCentro
+{
+    text-align:center;
+}
+
+.rigaScura
+{
+    background-color: var(--lightBlue);
+}
+.rigaChiara
+{
+    background-color: var(--mainWhite);
+}
+
+
+.parallaxContainer
+{
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment: fixed;
+}
+#terapiaManuale
+{
+    background-image: url("../images/terapiaManuale.jpg");
+    
+}
+#esercizioTerapeutico
+{
+    background-image: url("../images/esercizioTerapeutico.jpg");
+    background-position:right;
+}
+#pilatesFisioterapico
+{
+    background-image: url("../images/pilatesFisioterapico.jpg");
+}
+
+.fullScreenRow
+{
+
+    min-height: 40rem;
+}
+.fullScreenRow>div
+{
+    display: grid;
+}
+
+.textSection
+{
+    width:70%;
+    place-self: center;
+    line-height: 3rem;
+    padding:3rem;
+    
+}
+
+.cardRilievo
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textSection h2
+{
+    font-size: 7vh;
+    margin-bottom: 2rem;
+}
+
+.contenitoreColonneGrid
+{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    justify-items: end;
+    gap: 10rem;
+}
+
+.decorazioneDiapositiva img
+{
+    transform: rotate(2.6deg);
+}
+.decorazioneDiapositiva div
+{
+    background-color: var(--darkBlue);
+}
+
+#chiSono
+{
+    margin-bottom:3rem;
+    margin-top:3rem;
+    padding-bottom:3rem;
+    padding-top:3rem;
+    background-color: var(--lightBlue);
+}
+
+#chiSono .textSection
+{
+    text-align:center;
+}
+
+.sfondoChiaro
+{
+    background-color: var(--mainWhite);
+}
+
+#chiSono p
+{
+    margin-bottom: 2rem;
+}
+
+#location
+{
+    margin-top:6rem;
+}
+
+#location>div
+{
+    margin:auto;
+}
+
+#location .contenitoreColonne
+{
+    justify-content: space-around;
+    
+}
+
+
+#contattami
+{
+    font-size: 3vh;
+    margin-top:15rem;
+    display: grid;
+    position: relative;
+}
+
+#contattami h2
+{
+    font-size: 4vh;
+    margin-bottom:4rem;
+    line-height: 4rem;
+    text-align: left;
+}
+
+#graficaConsulenza
+{
+    position:absolute;
+    bottom:0;
+    right:5%;
+    width:30rem;
+}
+
+
+
+.recapiti>div
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    row-gap:6rem;
+    column-gap:1.4rem;
+   
+}
+
+.recapiti img
+{
+    width:3.5rem;
+    filter:grayscale(100%);
+    transition: 0.3s;
+    margin:auto;
+    place-self: center;
+}
+.recapiti a 
+{
+    display: grid;
+}
+
+.recapiti img:hover
+{
+    filter:grayscale(0);
+}
+
+
+form
+{
+    background-color: var(--lightBlue);
+    padding:2rem;
+    display: grid;
+    
+    margin:auto;
+}
+
+form .contenitoreColonne
+{
+    gap:3rem;
+}
+
+.contenitoreGridContatti
+{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    place-self:center;
+    gap:2rem;
+}
+
+
+#contattami
+{
+    padding:3rem;
+}
+
+#contattami> .contenitoreColonne
+{
+    justify-content: space-around;
+}
+
+#contattami form input, textarea
+{
+    border:none;
+    border-bottom:solid 3px var(--darkBlue);
+    margin-bottom:1.5rem;
+    font-size: 2.5vh;
+    font-family: var(--fontBody);
+}
+#submitBtn
+{
+    font-family: var(--fontBody);
+    width:30%;
+}
+textarea
+{
+    resize: none;
+}
+
+form input, form textArea
+    {
+        margin-top:1rem;
+        margin-bottom:4rem;
+    }
+
+
+footer
+{
+    border-top:solid 1px var(--mainDark);
+    text-align: center;
+    width:85%;
+    place-self: center;
+    margin-top:5rem;
+    padding:2rem;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p
+{
+    display: inline;
+}
+
+footer a
+{
+    color: var(--mainDark);
+    text-decoration: none;
+    border-bottom: solid 2px rgba(0, 0, 255, 0);
+    transition: 0.2s;
+}
+
+footer a:hover
+{
+    border-bottom: solid 2px var(--darkBlue);
+}
+
+#burger
+{
+    display: none;
+}
+
+/*Desktop rules*/
+@media screen and (min-width: 992px){
+    header
+    {
+        justify-content: space-between;
+        width:90%;   
+        
+    }
+    nav li
+    {
+        margin-left:3em;
+    }
+    svg
+    {
+        display: none;
+    }
+
+    .hero
+    {
+        margin-top:1em;
+        width:80%;
+    }
+
+    #burgerIcon
+    {
+        display: none;
+    }
+
+    .contenitoreGridContatti
+    {
+        width:80%;
+    }
+
+    footer a
+    {
+        margin-left:3rem;
+    }
+
+    .contenitoreGrid
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenitoreGridContatti
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenitoreColonneGrid
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .serviziMobile
+    {
+        display: none !important;
+    }
+    
+
+    
+}
+
+/*Mobile rules*/
+@media screen and (max-width: 992px){
+
+    body
+    {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    header
+    {
+        justify-content: space-between;
+        width:90%;
+        margin-left:0;
+        margin-right:0;
+        padding-left:0;
+        padding-right:0;
+        padding-top:0;
+    }
+
+    .logo
+    {
+        background-color: white;
+        padding-top:0;
+    }
+    nav li
+    {
+        display: block;
+        margin-top: 1em;
+    }
+    nav
+    {
+        margin-top:3em;
+        place-self: center;
+    }
+
+    .contenitoreColonne
+    {
+        width: 80%;
+        flex-direction: column;
+    }
+    h1
+    {
+        font-size: 5vh;
+    }
+
+    .testoDestra, .testoSinistra, .testoCentro 
+    {
+        text-align: center;
+    }
+
+    nav
+    {
+        width: 100%;
+        display: grid;
+        margin-top:1rem;
+        position: relative;
+        justify-items: center;
+    }
+    nav ul
+    {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left:0;
+        
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.95);
+        border:solid 1px black;
+        z-index: 1000;
+        display: grid;
+        
+    }
+
+
+    nav li
+    {
+        margin-botto:1rem;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+
+    }
+
+    #burger:checked~*
+    {
+        height: 0;
+        opacity: 0%;
+        transition: 0.3s;
+    }
+
+    #burger~*
+    {
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    svg
+    {
+        fill:rgba(0, 0, 0, 0.415);
+        transition: 0.7s;
+        position:absolute;
+        top:2%;
+        left:2%;
+        position: fixed;
+        z-index: 1100;
+    }
+    
+    .logo
+    {
+        z-index:1000;
+    }
+
+    svg:active
+    {
+        /* transform: rotate(90deg); */
+        transition: 0.1s;
+        fill:var(--darkBlue);
+
+    }
+
+    .contenitoreColonneGrid
+    {
+        justify-items: center;
+    }
+    .contenitoreGrid
+    {
+        justify-items: center;
+    }
+
+    .hero img
+    {
+        width:80%;
+    }
+
+    .hero 
+    {
+        flex-direction: column-reverse !important;
+    }
+
+    #chiSono img
+    {
+        max-width: 70%;
+        transform: rotate(4deg); 
+        
+    }
+    .decorazioneDiapositiva div
+    {
+        background-color: transparent;
+    }
+
+    #chiSono
+    {
+        max-width: 100%;
+        gap:0;
+    }
+
+    section h2
+    {
+        font-size: 5vh !important;
+    }
+    .textSection
+    {
+        padding-left:0;
+        padding-right:0;
+        margin:auto;
+        min-width: 90%;
+    }
+
+    .fullScreenRow
+    {
+        background-color: transparent;
+    }
+
+    .parallaxContainer
+    {
+        display: none !important;
+    }
+
+    .serviziMobile
+    {
+        margin-top:2rem;
+        margin-bottom:3rem;
+        max-width: 80%;
+    }
+
+    #servizi
+    {
+        background-color: transparent;
+    }
+
+    .fullScreenRow>div
+    {
+        margin-top:3rem;
+        margin-bottom:3rem;
+    }
+
+    #location
+    {
+        place-self: center;
+        width: 100%;
+        display: grid;
+    }
+
+
+
+    #location iframe
+    {
+        max-width:95%;
+        margin:auto;
+        
+    }
+    #location img
+    {
+        max-width: 100%;
+        margin-top:3rem;
+    }
+
+
+    
+    footer
+    {
+        margin-top:7rem;
+        padding-left:0;
+        padding-right:0;
+        
+    }
+
+    footer a
+    {
+        display: block;
+        z-index: 20000;
+    }
+
+    #contattami
+    {
+        padding: 0;
+        max-width: 90%;
+        place-self: center;
+        
+    }
+
+    #contattami h2
+    {
+        text-align: center !important;
+    }
+
+    form
+    {
+        padding-inline:1rem;
+        justify-items: center;
+        margin-bottom: 3rem;
+    }
+    form > .contenitoreColonne
+    {
+        display:block;
+    }
+
+    form input, form textArea
+    {
+        width:70vw;
+    }
+
+    #graficaConsulenza
+    {
+        width:70vw;
+        position:relative;
+        place-self: center;
+        margin-top: 3rem;
+    }
+    
+
+    #submitBtn
+    {
+        width:80%;
+    }
+
+    .recapiti
+    {
+        display: grid;
+        
+    }
+    h2
+    {
+        place-self: center;
+    }
+
+    .recapiti>div
+    {
+        place-self: center;
+        grid-template-columns: none;
+        row-gap: 1em;
+    }
+
+    .recapiti>div p
+    {
+        margin-bottom:2.3em;
+    }
+    .recapiti img
+    {
+        width:3rem;
+    }
+
+    .contenitoreGridContatti
+    {
+        justify-items: center;
+    }
+}
