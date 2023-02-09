@@ -16,6 +16,8 @@ html
     scroll-behavior: smooth;
 }
 
+
+
 ::-moz-selection 
 { 
     color: var(--mainWhite);
@@ -555,7 +557,6 @@ footer a:hover
     }
     
 
-    
 }
 
 /*Mobile rules*/
