@@ -562,6 +562,11 @@ footer a:hover
         grid-template-columns: 1fr 1fr;
     }
 
+    #servizi h2
+    {
+        line-height: 1.2em;
+    }
+
     .serviziMobile
     {
         display: none !important;
