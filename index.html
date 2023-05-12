@@ -1,17 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5MMZMQZLW"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5MMZMQZLW');
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Scopri Emanuele Cantoni, Fisioterapista a Castelnovo di Sotto (Reggio Emilia)">
+    <meta name="keywords" content="Fisioterapista, Castelnovo, Reggio, Emanuele, Cantoni, Terapia">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuele Cantoni Fisioterapista</title>
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/stile.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <div style="background-color: #9DD0DD; place-self: center; text-align: center;padding-inline:3em;"class=cardRilievo>
-        <h1 style="place-self: center;">Sito in costruzione</h1>
-        <p style="place-self: center;">Un pò di pazienza ;)</p>
-    </div>
+<body  ontouchstart="">
+        <label for="burger"><svg fill="var(--button-color)" class="hamburger" viewBox="0 0 100 100" width="40">
+            <rect class="line top" width="80" height="10" x="10" y="25" rx="5">
+            </rect>
+            <rect class="line middle" width="80" height="10" x="10" y="45" rx="5">
+            </rect>
+            <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5">
+            </rect>
+        </svg>
+    </label>  
+        <header class="contenitoreColonne">
+            <div class="logo">
+                <h2>Emanuele Cantoni</h2>
+                <hr>
+                <p>Fisioterapista</p>
+            </div>
+            <nav>
+                <!-- <label for="burger" id="burgerIcon"><img src="images/burgerIcon.svg"></label> -->
+                
+                
+                <input type="checkbox" id="burger" checked>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#chiSono">Chi Sono</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#contattami">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="hero contenitoreColonne">
+            <div>
+                <h1>Dr. Emanuele</br>Cantoni</h1>
+                <p>Sono Emanuele Cantoni, fisioterapista. Il mio obiettivo è farti raggiungere il pieno benessere psicofisico attraverso un approccio terapeutico globale.</p>
+                <a class="btn btnYellow" href="#chiSono">Learn More</a>
+            </div>
+            <div class="imgContainer">
+                <div class="decorazione" id="divChiaro">&nbsp;</div>
+                <div class="decorazione" id="divScuro">&nbsp;</div>
+                <img src="images/foto hero Lele.png" alt="Emanuele Cantoni Fisioterapista">    
+            </div>
+        </section>
+
+
+    <section id="chiSono" class="contenitoreColonneGrid sfondoGradienteChiaro">
+        <div class="decorazioneDiapositiva">
+            <div id="decorazione diapositiva">
+                <img src="images/foto Lele.jpg" alt="Emanuele Cantoni Fisioterapista"> 
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="textSection sfondoChiaro cardRilievo">
+                <h2>Conosciamoci!</h2>
+                <p>Credo nell’importanza della formazione continua, infatti dopo essermi laureato in fisioterapia nel 2021, ho approfondito la terapia manuale attraverso corsi ad indirizzo osteopatico. Attualmente mi sto specializzando in manipolazione chiropratica.</p>
+                <a class="btn btnYellow" href="EmanueleCantoniCv.pdf" target="_blank">Guarda il mio CV</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="servizi">
+        <section class="fullScreenRow contenitoreGrid rigaScura" id="servizi">
+            <div id="terapiaManuale" class="parallaxContainer">
+                &nbsp;
+            </div>
+            <div>
+                <div class="textSection testoDestra cardRilievo sfondoChiaro">
+                    <h2>Terapia Manuale</h2>
+                    <p>La terapia manuale è il pilastro fondamentale del mio lavoro. Attraverso diverse tipologie di tecniche possiamo agire sui sintomi e sulle cause di diverse patologie muscolo-scheletriche per riportare il corpo ad uno stato di benessere generale.</p>
+                    <img src="images/terapiaManuale.jpg" alt="terapia Manuale" class="serviziMobile cardRilievo">
+                </div>    
+            </div>
+        </section>
+        
+        <section class="fullScreenRow contenitoreGrid rigaChiara">
+            <div>
+                <div class="textSection testoSinistra cardRilievo ">
+                    <h2>Esercizio Terapeutico</h2>
+                    <p>Si tratta della fase attiva del trattamento, fondamentale per massimizzare i benefici del trattamento, soprattutto nel lungo termine. Studieremo insieme un piano di esercizi personalizzato per la tua problematica. In particolare utilizzo nei miei trattamenti anche il Pilates Fisioterapico, una forma efficace di esercizio terapeutico.</p>
+                    <img src="images/esercizioTerapeutico.jpg" alt="esercizioTerapeutico" class="serviziMobile cardRilievo">
+                </div>    
+            </div>
+            
+            <div id="esercizioTerapeutico" class="parallaxContainer">
+                &nbsp;
+            </div>
+        </section>
+        
+        <section class="fullScreenRow contenitoreGrid rigaScura">
+            <div id="pilatesFisioterapico" class="parallaxContainer" >
+                &nbsp;
+            </div>
+            <div>
+                <div class="textSection testoDestra cardRilievo sfondoChiaro">
+                    <h2>Kinesiotaping e bendaggio funzionale</h2>
+                    <p>Offro il servizio di applicazione del kinesiotape e di bendaggi funzionali, in particolare per atleti soggetti a instabilità articolari e recidive di distorsioni.</p>
+                    <img src="images/pilatesFisioterapico.jpg" alt="pilates fisioterapico" class="serviziMobile cardRilievo">
+                </div>    
+            </div>
+        </section>
+    </section>
+    
+    <section id="location">
+        <div class="textSection testoCentro">
+            <h2>Vieni a trovarmi</h2>
+            <p>Nel mio studio a Castelnovo di Sotto presso Via Grazia Deledda n.11 effettueremo una valutazione della tua situazione e studieremo insieme la soluzione più adatta a te!</p>
+        </div>
+        
+        <div class="galleriaGrid">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297.53317912070554!2d10.559681243788743!3d44.80875737279631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4780180848d71031%3A0x26254d4cc7acdd39!2sVia%20Grazia%20Deledda%2C%2011%2C%2042024%20Castelnovo%20di%20Sotto%20RE!5e0!3m2!1sit!2sit!4v1675446655595!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="cardRilievo "></iframe>
+            </div>
+            <div>
+                <img src="images/studioLele.jpg" alt="studio emanuele cantoni fisioterapista" class="cardRilievo zoom">
+            </div>
+            <div>
+                <img src="images/fotoPesi.jpg" alt="pesi da allenamento" class="cardRilievo zoom">
+            </div>
+            <div>
+                <img src="images/manipolazioneBacino.jpg" alt="manipolazione del bacino" class="cardRilievo zoom">
+            </div>
+        </div> 
+
+ 
+
+    </section>
+
+    
+    <section id="contattami" >
+        <div class="contenitoreGridContatti">
+            <div class="containerForm">
+                <h2>Compila il form e verrai ricontattato al più presto</h2>
+                <form class="cardRilievo" name="contatto" method="POST" data-netlify="true">
+                    <label for="fNome">Nome:</label>
+                    <input type="text" id="fNome" name="nome" required>
+                    <label for="fCognome">Cognome:</label>
+                    <input type="text" id="fCognome" name="nome" required>
+                    <label for="fNumTelefono">Numero di telefono:</label>
+                    <input type="tel" id="fNumTelefono" name="telefono" required>
+                    <label for="fMessaggio">Il tuo messaggio:</label>
+                    <textarea name="messaggio" id="fMessaggio"  required rows="3" >
+                    </textarea>
+                    <input type="submit" class="btn btnYellow" id="submitBtn">
+                </form>
+            </div>
+
+            <div class="recapiti">
+                <h2>Oppure utilizza i miei recapiti e i miei social</h2>
+                
+                <div>
+                    <a href="tel:3459677922"><img src="images/phoneIcon.svg"></a> <p>+39 345 9677922</p>
+                    <a href="mailto:cantonifisioterapia@gmail.com"><img src="images/mailIcon.svg"></a> <p>cantonifisioterapia@gmail.com</p>
+                    <a href="https://www.instagram.com/emanuelecantoni_fisioterapista/"><img src="images/instaIcon.svg"></a> <p>emanuelecantoni_fisioterapista</p>
+                </div>
+                
+                
+            </div>
+        </div>
+        <img src="images/graficaConsulenza.png" alt="grafica su consulenza" id="graficaConsulenza">
+    </section>
+
+    
+
+     <footer>
+            <p>© Emanuele Cantoni 2023 - tutti i diritti riservati N. p.iva 02955110354 N.albo 1081 </p><a href="#">Torna Su</a> <br>
+            <a href="https://www.iubenda.com/privacy-policy/97091907" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </footer> 
+
     
 </body>
 </html>
