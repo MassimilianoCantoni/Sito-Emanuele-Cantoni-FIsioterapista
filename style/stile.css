@@ -145,7 +145,7 @@ header
 {
 
     z-index:200;
-    bottom:2px;
+    bottom:20px;
     right:0;
 }
 
@@ -757,6 +757,23 @@ p.credits a
         transform: rotate(4deg); 
         
     }
+
+    #divScuro
+    {
+        display: none;
+    }
+
+    #divChiaro
+    {
+        display: none;
+    }
+
+    .imgContainer img
+    {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
     .decorazioneDiapositiva div
     {
         background-color: transparent;
